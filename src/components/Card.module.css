@@ -1,0 +1,37 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 18.75rem; 
+    height: 21.875rem;
+    background-color: aliceblue;
+    border: 1px solid var(--primary-color);
+    border-radius: .625rem;
+    padding: 1.25rem; 
+    gap: .625rem;
+}
+
+.englishWord {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: .625rem;
+}
+
+.transcription, .russianWord {
+    font-size: 1.125rem;
+    margin-bottom: 1.25rem;
+}
+
+.showTranslationButton {
+    color:aliceblue;
+    background-color:var(--button-color);
+    padding: .75rem .9375rem;
+    border: none;
+    border-radius: .3125rem;
+    cursor: pointer;
+}
+
+.showTranslationButton:hover {
+    background-color: #3e8e41;
+}

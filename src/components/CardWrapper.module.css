@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: flex-start; 
+    height: 100vh; 
+    margin-top: 4.375rem;
+}
+
+.buttonContainer {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    gap: 1.875rem;
+}
+
+.arrowButton {
+    color: var(--button-color);
+    cursor: pointer;
+}
+
+.arrowButton:hover {
+    color:var(--button-hover-color);
+}
+
+.counter {
+    margin-top: .625rem;
+}

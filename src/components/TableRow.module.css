@@ -1,0 +1,28 @@
+
+.tableRow td {
+    text-align: center; 
+    width: 20%;
+    height: 2.5rem;
+    align-items: center; 
+    font-size: 16px; 
+    font-family: Arial, sans-serif; 
+    padding: 0; 
+    background-color: aliceblue;
+    border: 1px solid var(--primary-color);
+}
+
+.tableRow td input {
+    width: 100%; 
+    height: 100%; 
+    padding: 0.625rem; 
+    border: none; 
+    outline: 2px solid rgba(76, 175, 80, 0.5);
+    text-align: center; 
+    font-size: 16px; 
+    font-family: Arial, sans-serif; 
+}
+
+.tableRow td,
+.tableRow td input {
+    box-sizing: border-box; 
+}
