@@ -1,4 +1,4 @@
-@import "variables";
+@import "./variables.css";
 
 .edit_button, .delete_button {
     color:aliceblue;

@@ -1,6 +1,7 @@
 import Card from './Card';
 import CardWrapper from './CardWrapper';
 import React, { useState } from 'react';
+
 const Carousel = ({cards}) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [showTranslation, setShowTranslation] = useState(false);

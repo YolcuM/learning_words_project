@@ -1,10 +1,10 @@
 import React from 'react';
-import notFound from '../images/notFound.jpg'; 
+import notFound from '../images/error.png'; 
 import { Link } from 'react-router-dom';
 const NotFound = () => {
     return(
         <Link to='*'>
-            <img src={notFound} alt='Мем с Котом' style={{width: '31.25rem'}}/>
+            <img src={notFound} alt='Страница не найдена' style={{width: '30.20rem'}}/>
         </Link>
     );
 };
