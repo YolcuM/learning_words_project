@@ -1,11 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
 .navigation {
     display: flex;
     padding: 10px 0px;
     justify-content: center;
     align-items: center;
-    gap: 2.5rem;
+    gap: 2.3rem;
     background-color: var(--primary-color);
-    margin:  0px 0px .625rem 0px;
+    margin:  0px 0px .615rem 0px;
     border-bottom: 3.125rem;
 }
+.navigation a {
+    color: white;
+}
 
+.navigation a:hover {
+    color:#1dac43;
+}
+
+.navigation a:visited {
+    color: rgb(202, 188, 188);
+}
+.container_main{
+    flex: 1 1 auto;
+    border: 1px solid black;
+}
